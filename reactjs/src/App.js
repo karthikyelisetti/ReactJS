@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="Container">
-      <img src="Linkedin-Logo.webp" id="linkedin-logo" alt="LinkedIn" />
+import logo from './Linkedin-Logo.webp'
+import './App.css';
+
+function App() {
+  return (
+    <>
+      <img src={logo} id="linkedin-logo" alt="LinkedIn" />
+      <div class="Container">
       <section class="login-form">
         <form id="login" action="">
           <table class="tables">
@@ -53,11 +48,9 @@
           </table>
         </form>
       </section>
-    </div>
+     </div>       
+    </>
+  );
+}
 
-    <footer>
-
-    </footer>
-    <script src="" async defer></script>
-  </body>
-</html>
+export default App;
