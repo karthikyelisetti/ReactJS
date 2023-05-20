@@ -1,0 +1,44 @@
+#linkedin-logo {
+  width: 150px;
+}
+
+.tables {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 2px solid lightblue;
+  border-radius: 9px;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+#text-box {
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+  width: 240px;
+  height: 20px;
+  transition-property: border;
+  transition: 750ms;
+}
+
+#text-box:hover {
+  border: 2px solid blueviolet;
+}
+
+.table-header {
+  padding: 10px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.btn {
+  padding: 12px;
+  width: 260px;
+  margin: 0 auto;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(56, 178, 218);
+}
